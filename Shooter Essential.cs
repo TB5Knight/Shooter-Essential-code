@@ -75,7 +75,7 @@ public class Enemytype1 : MonoBehaviour
 
   void Start()
   {
-    //Rsndom intial position 
+    //Random intial position 
      float transform.position.x = Random.Range(-5f, 5f);
      transform.position = new Vector3(transform.position.x * -1, y, 0);
   }
@@ -104,7 +104,7 @@ public class Enemytype2 : MonoBehaviour
 
   void Start()
   {
-    //Rsndom intial position 
+    //Random intial position 
      float transform.position.x = Random.Range(-3f, 3f);
      transform.position = new Vector3(transform.position.x * -1, y, 0);
   }
